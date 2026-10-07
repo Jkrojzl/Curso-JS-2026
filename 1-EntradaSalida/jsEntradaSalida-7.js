@@ -4,6 +4,8 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"  */
 
+//Similar al anterior, pero esta vez tenemos que hacer cuatro funciones diferentes. Copié y pegué cambiando solo el string del alert, el nombre de la función y la operación matemática.
+
 function sumar () {
 
     let num1;
