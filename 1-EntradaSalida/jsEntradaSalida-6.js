@@ -2,6 +2,8 @@
 Mostar el resulto por medio de "ALERT"
 ej.: "la suma es 750" */
 
+//Similar al anterior pero utilizando números como valores. El parseInt modifica los valores a números enteros (como ya se dice en la consigna).
+
 function sumar () {
 
     let num1;
