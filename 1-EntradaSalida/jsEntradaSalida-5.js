@@ -4,6 +4,8 @@ Mostrarlos concatenados
 ej.: "Usted se llama José y tiene 66 años"
 */
 
+//Es el ejercicio tres pero con dos variables que necesitamos concanetar al final
+
 function Mostar () {
 let nombre;
 nombre = document.getElementById ("elNombre").value;

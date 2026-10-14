@@ -2,6 +2,8 @@
 Mostar el resulto por medio de "ALERT"
 ej.: "la suma es 750" */
 
+//Similar al anterior pero con valores numéricos. Agregué la variable "num" porque sino me lo tomaba como string en la concatenación final
+
 function sumar () {
 
     let num1;

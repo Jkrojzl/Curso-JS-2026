@@ -4,6 +4,10 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"  */
 
+/*Idéntico al anterior [la primera función es literalmetne idéntica] 
+Se copia la misma función 4 veces, modificando solamente el nombre de la función, la operación matemática y el string final.
+*/
+
 function sumar () {
 
     let num1;
