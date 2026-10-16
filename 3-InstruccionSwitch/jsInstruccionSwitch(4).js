@@ -3,8 +3,8 @@ si tiene 28 días.
 si tiene 30 días.
 si tiene 31 días. */
 
-/*Una mezcla de los ejercicios 2 y 3. Continuó donde se quedó el ejercicio anterior, 
-pero agrupando a todos los meses */
+/*Una mezcla de los ejercicios 2 y 3. Continúa donde se quedó el ejercicio anterior, 
+pero agrupando a todos los meses. Aquí sí conviene utilizar switch en vez de if porque debo controlar muchos valores */
 
 function Mostrar(){
 

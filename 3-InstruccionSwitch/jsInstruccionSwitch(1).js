@@ -5,8 +5,8 @@ si es Marzo: "a clases!!!."
 si es Julio: "se vienen las vacaciones!!!."
 si es Diciembre: "Felices fiesta!!!." */
 
-/*En este ejercicio uso el switch emparejando los cuatro mensajes con los cuatro mesees
-que te pide la consigna */
+/*En este ejercicio uso el switch emparejando los cuatro mensajes con los cuatro meses
+que te pide la consigna. No tiene más ciencia que eso (Switch -> Case (alert) -> Break) */
 
 
 
@@ -16,25 +16,20 @@ function Mostrar(){
 
     switch(mes){
         case "Enero":
-            alert("Que comiences bien el año!");
+            alert("Que comiences bien el año!!!");
             break;
 
-
         case "Marzo":
-            alert("a clases");
+            alert("a clases!!!");
             break;
 
         case "Julio":
-            alert("se vienen las vacaciones");
+            alert("se vienen las vacaciones!!!");
             break;
 
         case "Diciembre":
-            alert("felices fiestas");
+            alert("felices fiestas!!!");
             break;
-
-
-
     }
-
 
 }

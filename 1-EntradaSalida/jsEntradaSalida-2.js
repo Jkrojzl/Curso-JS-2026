@@ -3,7 +3,8 @@ debemos lograr tomar un dato por 'PROMPT'
 y luego mostrarlo por 'ALERT'.
 */
 
-//Igual al anterior, pero aquí en vez de mostrar un string puesto por el programador, lo que se muestra lo dice el usuario. Para eso usamos un prompt
+/*Igual al anterior, pero aquí en vez de mostrar un string puesto por el programador, lo que se muestra lo dice el usuario. 
+Para eso usamos un prompt y una variable que tengo que declarar. Creo qeu también podría haber puesto let michi = prompt ("..."); */
 
 function Mostar () {
     let michi;

@@ -14,7 +14,7 @@ let Contador = 1;
 Número = parseInt (prompt ("Ingrese un número"));
 Suma = Número + Suma;
 
- Usuario = prompt ("¿Desea sumar otro número? S / N").toUpperCase(); // Agregué esto porque ponía s y se cerraba el programa
+ Usuario = prompt ("¿Desea sumar otro número? S / N").toUpperCase(); 
 while (Usuario == "S") {
 
  Número = parseInt (prompt ("Ingrese un número"));

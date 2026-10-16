@@ -6,7 +6,8 @@ ACLARAcIÓN: tomamos a Julio y Agosto como los meses de Invierno. */
 
 /*Ejercicio parecido al anterior, con switch. Acá tenemos tres tipos de meses. Invierno (definido
 por julio y agosto); los meses anteriores; los meses posteriores. Hay que usar case con todas las
-opciones porque los meses son strings, no numéricos. */
+opciones porque los meses son strings, no numéricos.
+Alternativamente se podría asignar un número a cada mes, pero creo que es una solución más larga */
 
 
 function Mostrar(){
@@ -36,9 +37,6 @@ function Mostrar(){
             alert("Ya pasamos el frio, ahora calor!");
             break;
         
-
-
     }
-
 
 }

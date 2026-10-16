@@ -2,7 +2,7 @@
  */
 
 /* Es exactamente igual que el anterior, pero inverso. Aquí sigo el mismo razonamiento pero excluyendo
-a las edades contempladas en el ejercicio anterior. Aquí tengo que usar el conector "o" */
+a las edades contempladas en el ejercicio anterior. Para eso debo utilizar otro operador, el "o" */
 
 function Mostrar () {
 

@@ -1,8 +1,8 @@
 /* l ingresar una edad 
 debemos informar si la persona es mayor de edad, sino informar que es un menor de edad. */
 
-/* Proceso = Este ejercicio es igual que el anterior, 
-pero además nos pide informar al usuario cuando la condición no se cumple */
+/* Proceso = Este ejercicio también es parecido al anterior, 
+pero además nos pide informar al usuario cuando la condición no se cumple, lo que hacemos agregando un else */
 
 function Mostrar () {
 

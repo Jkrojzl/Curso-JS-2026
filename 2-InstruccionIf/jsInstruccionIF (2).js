@@ -1,6 +1,6 @@
 /*Al ingresar una edad debemos informar si la persona es mayor de edad */
 
-//igual al anterior. Solo cambia el operador
+//Igual al anterior. Solo cambia el operador
 
 function Mostrar () {
 

@@ -4,7 +4,7 @@ Al presionar el Botón, asignar una nota RANDOM al examen y mostar:
 "Vamos, la proxima se puede" para notas menores a 4 */
 
 /*Retomo el math.random del ejercicio anterior, pero le agrego un IF, un ELSE IF y un ELSE para que me
-de las tres alertas requeridas */
+de las tres alertas requeridas. Es la mezcla del ejercicio 6 y el 9 */
 
 function Mostrar () {
     

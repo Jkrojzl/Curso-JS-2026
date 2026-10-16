@@ -4,7 +4,8 @@ si es Febrero: " Este mes no tiene más de 29 días."
 si NO es Febrero: "Este mes tiene 30 o más días" */
 
 /* Parecido al primer ejercicio, solo que especificamos UN mes; el resto queda con el caso default
-Sería más prolijo usar if, creo : If mes == "Febrero" ....; Else ....) */
+Me parece que sería más prolijo usar if que switch porque solo necesito dos opciones: 
+If mes == "Febrero" ....; Else ....) */
 
 
 function Mostrar(){

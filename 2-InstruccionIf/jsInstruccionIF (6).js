@@ -2,7 +2,7 @@
  o adolescente (entre 13 y 17 años) o niño (menor a 13 años). */
 
  /* Este ejercicio es una especie de mezcla de los anteriores, pero acá tengo tres estados finales,
- por eso debería usar aquí el else if para poder dar cuenta de eso */
+ por eso debería usar aquí el else if para poder dar cuenta de eso. El diagrama sería un árbol con dos bifurcaciones*/
 
  function Mostrar () {
 

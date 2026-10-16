@@ -1,6 +1,6 @@
 /*Al presionar el botón pedir números hasta que el usuario quiera, sumar los que son positivos y multiplicar los negativos.*/
 
-/*Uff. Creo que acá necesito tener dos contadores distintos. Uno para positivos, otro para negativos. 
+/*Creo que acá necesito tener dos contadores distintos. Uno para positivos, otro para negativos. 
 La decisión de si va para un contador u otro tiene que depender de un if. 
 No necesitaría la variable Contador porque no necesito calcular promedio.*/  
 
@@ -21,7 +21,7 @@ if (Número > 0) {
 else {NumNeg = Número * NumNeg;
 ContNeg = ContNeg + 1;
 }
- Usuario = prompt ("¿Desea sumar otro número? S / N").toUpperCase(); // Esto es igual al ejercicio previo
+ Usuario = prompt ("¿Desea sumar otro número? S / N").toUpperCase(); 
 
  while (Usuario == "S") {    //DOS. While. Ingreso de sucesivos números
 
@@ -35,13 +35,11 @@ else { NumNeg = Número * NumNeg
  Usuario = prompt ("¿Desea sumar otro número? S / N").toUpperCase();
 
 }
-
  document.getElementById("suma").value = NumPos; //TRES. Fin de ciclo. Se muestran los resultados
 
  if (ContNeg == 0) {
  document.getElementById("producto").value = "No se ingresaron números negativos";   
 }
  else document.getElementById("producto").value = NumNeg;
-
  
 }

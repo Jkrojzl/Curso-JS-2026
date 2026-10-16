@@ -4,8 +4,8 @@ mostrar el siguiente mensaje: 'Es muy pequeño para NO ser soltero.' */
 
 /*Parecido a un ejercicio anterior. Aquí voy a utilizar el IF porque necesito
 que se cumplan con dos condiciones. La diferencia respecto al otro ejercicio es que aquí
-una de las condiciones es un número; la otra es una selección que el usuario tiene que hacer
-entre tres opciones, ahí debería utilizar un valor booleano */
+una de las condiciones sigue siendo un número pero la otra es una cadena (string) que debe corresponderse al valor que estoy asignando.
+En los hechos la única diferencia es que tengo que poner el string entre comillas */
 
 
 function Mostrar () {

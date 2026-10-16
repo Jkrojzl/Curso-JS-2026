@@ -2,7 +2,12 @@
 1-Suma de los negativos. 2-Suma de los positivos. 3-Cantidad de positivos. 4-Cantidad de negativos. 5-Cantidad de ceros. 
 6-Cantidad de números pares. 7-Promedio de positivos. 8-Promedios de negativos. 9-Diferencia entre positivos y negativos, (positvos-negativos).*/
 
-/*Demasiadas porquerías. Creo que es lo mismo de siempre pero con más cosas y más aburrido */
+/*Demasiadas porquerías. Primero tengo definir las variables que necesito. Al menos una por cada cosa que tengo que mostrar,
+además de una para el número que ingrese el usuario y otra que registre que quiere seguir respondiendo.
+Las primeras seis cosas que tengo que mostrar se van acumulando mientras se procesa todo; las últimas tres se tienen que calcular al final.
+Las que se van acumulando se deben acumular usando un if; las dos sobre números negativos y positivos se pueden agrupar juntas.
+Después es una operación para cada cosa que quiero mostrar. Y finalizo con el document.write que me pide la página
+ */
 
 
 function Mostrar () {
@@ -15,6 +20,10 @@ let NumCero = 0;
 let NumPar = 0;
 let Número;
 let Usuario = "S"; // Lo pongo así porque sino tenía que duplicar el código para diferenciar el primer número de los siguientes
+
+/*Resp = Confirm ("¿Querés poner otro número") Al usuario le salen dos opciones:
+confirmar y cancelar, que contienen respuestas binarias true y false.
+Tengo que cambiar el prompt que está abajo y arriba poner Usuario = "true" */
 
 while (Usuario == "S") {    
 
